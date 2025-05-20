@@ -52,7 +52,9 @@ const Content = styled.div`
     display: grid;
     grid-gap: 25px;
     grid-template-columns: repeat(4, minmax(0,1fr));
+    overflow: hidden;
 `
+
 
 const Wrap = styled.div`
     border-radius: 10px;
